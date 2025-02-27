@@ -32,7 +32,7 @@ const FourPillars = () => {
                 <div className='flex justify-center items-center py-5'>
                     <div className='flex flex-col items-center w-full max-w-[1200px]'>
                         <div className='flex flex-col items-center justify-center'>
-                            <h1 className='text-gray-600 font-bold text-3xl'>4 PILLARS of Our Well Being</h1>
+                            <h1 className='text-gray-600 font-medium text-3xl'>4 PILLARS of Our Well Being</h1>
                             <div className='text-gray-700 font-normal'>
                                 Embark on a personalized journey to optimal well-being with our free, practical, and results-driven lifestyle prescriptions.
                             </div>
