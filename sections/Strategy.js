@@ -20,12 +20,12 @@ const Strategy = () => {
                                     <h2 className='font-extrabold text-4xl text-[#64EDCC]'>01</h2>
                                     <p className=''>Enter your details - Get FoodCription</p>
                                     <div className='flex flex-row justify-between items-center w-[40%]'>
-                                        <div className='bg-[#]'></div>
-                                        <div className='bg-[#]'></div>
-                                        <div className='bg-[#]'></div>
-                                        <div className='bg-[#]'></div>
-                                        <div className='bg-[#]'></div>
-                                        <div className='bg-[#]'></div>
+                                        <div className='bg-[#64EDCC]'></div>
+                                        <div className='bg-[#92ADCC]'></div>
+                                        <div className='bg-[#FF965A]'></div>
+                                        <div className='bg-[#A4D221]'></div>
+                                        <div className='bg-[#F6DD5E]'></div>
+                                        <div className='bg-[#FB76BE]'></div>
                                     </div>
                                 </div>
                             </div>
