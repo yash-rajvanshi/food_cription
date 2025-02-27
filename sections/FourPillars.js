@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const FourPillars = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const FourPillars = () => {
                 <div className='flex justify-evenly w-full py-5'>
                     <div className='flex flex-col items-center cursor-pointer'>
                         <div className='w-[100px] h-[100px] flex flex-col border-2 rounded-lg p-4 border-gray-300/30 hover:border-teal-500'>
-                            <Image/>
+                            <Image src="/diet_image.png" alt="diet"/>
                         </div>
                         <h2 className='flex justify-center font-semibold'>Diet</h2>
                     </div>
