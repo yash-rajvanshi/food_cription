@@ -6,6 +6,7 @@ import Strategy from '@/sections/Strategy'
 import Testimonials from '@/sections/Testimonials'
 import Newsletter from '@/sections/Newsletter'
 import Refer from '@/sections/Refer'
+import Footer from '@/sections/Footer'
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Testimonials/>
             <Newsletter/>
             {/* <Refer/> */}
+            <Footer/>
         </div>
     )
 }
