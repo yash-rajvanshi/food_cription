@@ -1,4 +1,6 @@
 import "./globals.css";
+import { Zain, Karla, League_Script } from "next/font/google";
+
 // import localFont from 'next/font/local';
 
 // Load multiple font weights & styles
@@ -33,6 +35,10 @@ import "./globals.css";
   // display: 'swap',
   // variable: '--font-coolvetica',
 // });
+const karla = Karla({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-karla" });
+const leagueScript = League_Script({ subsets: ["latin"], weight: ["400"], variable: "--font-league-script" });
+const zain = Zain({ subsets: ["latin"], weight: ["200","300","400","800", "700","900"], variable: "--font-zain" });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -41,7 +47,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${karla.className} ${zain.variable} ${leagueScript.variable}`}>
       <body
         className={`antialiased`}
       >

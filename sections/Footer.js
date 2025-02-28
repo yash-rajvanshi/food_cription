@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 // import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
-import Scooter from "@/components/Scooter";
 import { motion } from 'framer-motion';
 
 // import { Karla } from "next/font/google";
