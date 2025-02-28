@@ -13,6 +13,28 @@ pnpm dev
 # or
 bun dev
 ```
+some logo #A6CC38 {location, mail, phone}
+
+#109D48 to #A4CB38 
+
+submit button color #16A349
+
+circle bg #A6CC38
+
+copyright_color #13280D
+
+
+hero gradiant #EACD54 to #2E9884 
+
+
+email newsletter border #ECFAD3
+
+
+fonts
+coolvetica - headlines
+
+satoshi - small texts
+
 
 Lime Green
 #76B947
