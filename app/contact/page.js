@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Heart from "@/assets/images/heart.png"
 import { ToastContainer, toast } from 'react-toastify';
 import { useState, useEffect } from "react";
+import Footer from "@/sections/Footer";
 
 
 
@@ -86,7 +87,7 @@ const Contact = () => {
     return (
         <>
             <ToastContainer />
-            <div className="h-[100vh]">
+            <div className="h-[120vh]">
                 <h1 className="text-5xl py-8 font-bold text-center">Get in Touch with us</h1>
 
                 <div
@@ -95,30 +96,30 @@ const Contact = () => {
                 >
                     {/* Left Section */}
 
-                    <div className="flex justify-between gap-5 h-[100%] flex-col">
+                    <div className="flex justify-between gap-5 h-[100%] lg:flex-col md:flex-row ">
                         <div className="md:w-1/1.5 space-y-4 text-gray-700">
                             <p className="flex items-center font-bold text-gray-600  space-x-3">
-                                <span className="text-green-600"><Image src="/location.svg" alt='email' width={20} height={20} className="" /></span>
+                                <span className="text-green-600"><Image src="/loc.svg" alt='email' width={20} height={20} className="text-gray-200" /></span>
                                 <span>India</span>
                             </p>
                             <p className="flex items-center  space-x-3">
-                                <span className="text-green-600 "><Image src="/location.svg" alt='emai' width={20} height={20} className="" /></span>
+                                <span className="text-green-600 "><Image src="/mail.svg" alt='emai' width={20} height={20} className="" /></span>
                                 <a href="mailto:foodcription@gmail.com" className="text-gray-600  font-semibold hover:underline">foodcription@gmail.com</a>
                             </p>
                             <p className="flex items-center font-bold text-gray-600 space-x-3 ">
-                                <span className="text-green-600"><Image src="/location.svg" alt='ema' width={20} height={20} className="" /></span>
+                                <span className="text-green-600"><Image src="/phone.svg" alt='ema' width={20} height={20} className="" /></span>
                                 <span>8919404516</span>
                             </p>
                         </div>
                         <div>
-                            <Image src={Heart} alt='email' width={200} height={200} className="-pb-6 mb-8" />
+                            <Image src={Heart} alt='email' width={200} height={200} className="-pb-6 mb-8 sm:h-[100px] sm:w-[auto] md:h-[100px] md:w-[auto] lg:h-[200px] " />
                         </div>
 
                     </div>
 
                     {/* Right Section - Contact Form */}
-                    <div className="md:w-1/2 bg-gray-50 p-5 md:mr-6 md:p-5 rounded-xl shadow-lg w-full max-w-lg">
-                        <form onSubmit={handleSubmit} className="space-y-5">
+                    <div className="md:w-1/2 h-[100%] bg-gray-50 p-5 md:mr-6 md:p-5 rounded-xl shadow-lg w-full max-w-lg">
+                        <form onSubmit={handleSubmit} className="h-[100%] space-y-5">
                             <input
                                 type="text"
                                 placeholder="First Name"
@@ -176,6 +177,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
 
     );
