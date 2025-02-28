@@ -3,9 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
-const Navbar = () => {
+const Navbar = ({position}) => {
   return (
-    <div className='max-w-[1200px] bg-slate-50 py-6 px-12 mx-auto rounded-lg w-full shadow-lg flex justify-between items-center'>
+    <div className={`max-w-[1200px] z-50 bg-slate-50 py-6 px-12 mx-auto rounded-lg w-full shadow-lg flex justify-between items-center ${position}`}>
       <Link href="/"><Image src="/logo.svg" alt='logo' width={200} height={200}/></Link>
       <div className='gap-5 flex items-center '>
         <Link href="/">About Us</Link>
