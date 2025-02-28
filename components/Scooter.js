@@ -9,7 +9,7 @@ const Scooter = () => {
         transition={{ repeat: Infinity, duration: 10, ease: 'linear' }}
         className="absolute w-1/3 h-full bg-gradient-to-r from-blue-500 to-blue-800"
       >
-        <img src="/footer-scooter.svg" alt="Moving Image" className="w-full h-full object-cover" />
+        <img src="/assets/images/footer-scooter.svg" alt="Moving Image" className="w-full h-full object-cover" />
       </motion.div>
     </div>
   );

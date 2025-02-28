@@ -15,7 +15,7 @@ const Strategy = () => {
                     <div className='flex flex-col max-w-[100%] justify-evenly'>
                         <div className='flex rounded-l-full bg-gradient-to-b from-[#FFF] via-[#FFF] to-[#F5F5F5] w-full items-center justify-between'>
                             <div className='flex justify-start w-full'>
-                                <Image src="/write.svg" alt="write" width={100} height={100} />
+                                <Image src="/assets/images/write.svg" alt="write" width={100} height={100} />
                                 <div className='flex flex-col w-[50%]'>
                                     <h2 className='font-extrabold text-4xl text-[#64EDCC]'>01</h2>
                                     <p className=''>Enter your details - Get FoodCription</p>
@@ -45,7 +45,7 @@ const Strategy = () => {
 
                         <div className='flex rounded-l-full bg-gradient-to-b from-[#FFF] via-[#FFF] to-[#F5F5F5] w-full items-center justify-between'>
                             <div className='flex justify-start w-full'>
-                                <Image src="/step3_yoga.svg" alt="write" width={100} height={100} />
+                                <Image src="/assets/images/step3_yoga.svg" alt="write" width={100} height={100} />
                                 <div className='flex flex-col w-[50%]'>
                                     <h2 className='font-extrabold text-4xl text-[#FF965A]'>03</h2>
                                     <p className=''>Yoga, Exercise, Meditation Advice</p>
@@ -76,7 +76,7 @@ const Strategy = () => {
 
                         <div className='flex rounded-l-full bg-gradient-to-b from-[#FFF] via-[#FFF] to-[#F5F5F5] w-full items-center justify-between'>
                             <div className='flex justify-start w-full'>
-                                <Image src="/step5_meals.svg" alt="write" width={100} height={100} />
+                                <Image src="/assets/images/step5_meals.svg" alt="write" width={100} height={100} />
                                 <div className='flex flex-col w-[50%]'>
                                     <h2 className='font-extrabold text-4xl text-[#F6DD5E]'>05</h2>
                                     <p className=''>Option to buy ready healthy meals</p>
@@ -105,7 +105,7 @@ const Strategy = () => {
                         </div>
                     </div>
                     <div className='w-[30%] px-3  mx-10'>
-                        <Image src="/dummy_foodcription.png" alt='dummy_foodcription' width={420} height={850} />
+                        <Image src="/assets/images/dummy_foodcription.png" alt='dummy_foodcription' width={420} height={850} />
                     </div>
                     <div className='flex flex-col max-w-[100%] w-[353.65px] justify-evenly'>
                         <div className='flex rounded-r-full bg-gradient-to-b from-[#FFF] via-[#FFF] to-[#F5F5F5] w-full items-center justify-between'>
@@ -122,7 +122,7 @@ const Strategy = () => {
                                 <div className='bg-gradient-to-r from-[#EAEEF0] to-[#8F8F8F] w-1 h-1 rounded-full mb-1'></div>
                             </div>
                             <div className='flex justify-start w-full'>
-                                <Image src="/step2_grocery.svg" alt="write" width={100} height={100} />
+                                <Image src="/assets/images/step2_grocery.svg" alt="write" width={100} height={100} />
                                 <div className='flex flex-col w-[50%]'>
                                     <h2 className='font-extrabold text-4xl text-[#92ADCC]'>02</h2>
                                     <p className=''>Get personalized Grocery List</p>
@@ -153,7 +153,7 @@ const Strategy = () => {
                                 <div className='bg-gradient-to-r from-[#EAEEF0] to-[#8F8F8F] w-1 h-1 rounded-full mb-1'></div>
                             </div>
                             <div className='flex justify-start w-full'>
-                                <Image src="/step4_orders.svg" alt="write" width={100} height={100} />
+                                <Image src="/assets/images/step4_orders.svg" alt="write" width={100} height={100} />
                                 <div className='flex flex-col w-[50%]'>
                                     <h2 className='font-extrabold text-4xl text-[#A4D221]'>03</h2>
                                     <p className=''>Grocery Buying option from our health partners</p>
@@ -185,7 +185,7 @@ const Strategy = () => {
                                 <div className='bg-gradient-to-r from-[#EAEEF0] to-[#8F8F8F] w-1 h-1 rounded-full mb-1'></div>
                             </div>
                             <div className='flex justify-start w-full'>
-                                <Image src="/step6_goal.svg" alt="write" width={100} height={100} />
+                                <Image src="/assets/images/step6_goal.svg" alt="write" width={100} height={100} />
                                 <div className='flex flex-col w-[50%]'>
                                     <h2 className='font-extrabold text-4xl text-[#FB76BE]'>05</h2>
                                     <p className=''>Health Goals Fulfilled in the most convenient way</p>

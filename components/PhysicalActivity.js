@@ -9,15 +9,15 @@ const PhysicalActivity = () => {
             </div>
             <div className='flex justify-evenly w-full py-10'>
                 <div className='flex flex-col justify-between items-center gap-5 w-[25%]'>
-                    <Image src="/physical_activity_content_1.svg" alt='img' width={100} height={100} />
+                    <Image src="/assets/images/physical_activity_content_1.svg" alt='img' width={100} height={100} />
                     <span className='text-xl font-medium text-center'>30 minutes brisk walk every day</span>
                 </div>
                 <div className='flex flex-col justify-between items-center gap-5 w-[25%]'>
-                    <Image src="/physical_activity_content_2.svg" alt='img' width={100} height={100} />
+                    <Image src="/assets/images/physical_activity_content_2.svg" alt='img' width={100} height={100} />
                     <span className='text-xl font-medium text-center'>Sports Engagement</span>
                 </div>
                 <div className='flex flex-col justify-between items-center gap-5 w-[25%]'>
-                    <Image src="/physical_activity_content_3.svg" alt='img' width={100} height={100} />
+                    <Image src="/assets/images/physical_activity_content_3.svg" alt='img' width={100} height={100} />
                     <span className='text-xl font-medium text-center'>Basic Yoga (Surya Namaskar)</span>
                 </div>
             </div>

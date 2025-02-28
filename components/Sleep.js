@@ -9,15 +9,15 @@ const Sleep = () => {
             </div>
             <div className='flex justify-evenly w-full py-10'>
                 <div className='flex flex-col justify-between items-center gap-5 w-[25%]'>
-                    <Image src="/sleep_content_1.svg" alt='img' width={100} height={100} />
+                    <Image src="/assets/images/sleep_content_1.svg" alt='img' width={100} height={100} />
                     <span className='text-xl font-medium text-center'>Sleep for 7-8 hours and Stick to a sleep schedule</span>
                 </div>
                 <div className='flex flex-col justify-between items-center gap-5 w-[25%]'>
-                    <Image src="/sleep_content_2.svg" alt='img' width={100} height={100} />
+                    <Image src="/assets/images/sleep_content_2.svg" alt='img' width={100} height={100} />
                     <span className='text-xl font-medium text-center'>Limit daytime naps</span>
                 </div>
                 <div className='flex flex-col justify-between items-center gap-5 w-[25%]'>
-                    <Image src="/sleep_content_3.svg" alt='img' width={100} height={100} />
+                    <Image src="/assets/images/sleep_content_3.svg" alt='img' width={100} height={100} />
                     <span className='text-xl font-medium text-center'>Avoid large meals, caffeine, and alcohol before bedtime.</span>
                 </div>
             </div>

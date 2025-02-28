@@ -76,7 +76,7 @@ const LandingPage = () => {
                 Foodcription
               </div>
               <div className="flex w-full relative">
-                <Image src="/landing-arrow.svg" alt="arrow" width={50} height={50} className="w-20" />
+                <Image src="/assets/images/landing-arrow.svg" alt="arrow" width={50} height={50} className="w-20" />
                 <span className="text-xs font-semibold absolute bottom-0 left-10">
                   Click here to get your own
                 </span>
