@@ -9,7 +9,7 @@ const Newsletter = () => {
                 <div className='py-5 w-full flex justify-center items-center'>
                     <form className="flex flex-row items-center shadow-lg border-2 border-[#b8f808]/30 rounded-lg w-full">
                         <input type="email" id="email" name="email" placeholder="Enter your Email" className="focus:border-none text-grey w-[70%] py-3 px-5 rounded-lg" />
-                        <button type="submit" className="text-white justify-center items-center py-3 rounded-lg w-[30%]  bg-gradient-to-b from-teal-600 to-[#b8f808]">Subscribe</button>
+                        <button type="submit" className="text-white justify-center items-center py-3 rounded-lg w-[30%]  bg-gradient-to-b from-[#099d49] via-[#4eb24f] to-[#8ae726]">Subscribe</button>
                     </form>
                 </div>
             </div>

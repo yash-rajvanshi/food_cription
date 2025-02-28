@@ -52,10 +52,10 @@ const FourPillars = () => {
                                 { id: "Sleep", img: SleepImg, title: "Sleep" },
                             ].map((item) => (
                                 <div key={item.id} className='flex flex-col items-center cursor-pointer' onClick={() => setActiveTab(item.id)}>
-                                    <div className={`w-[100px] h-[100px] flex flex-col border-2 rounded-lg p-4 transition-all duration-300 ${activeTab === item.id ? "border-teal-500" : "border-gray-300/30 hover:border-teal-500"}`}>
+                                    <div className={`w-[100px] h-[100px] flex flex-col border-2 rounded-lg p-4 transition-all duration-300 ${activeTab === item.id ? "border-[#089d49]" : "border-[#b8f8084e]"}`}>
                                         <Image src={item.img} alt={item.title} width={100} height={100} />
                                     </div>
-                                    <h2 className={`flex justify-center font-semibold mt-2 ${activeTab === item.id ? "text-teal-500" : "text-gray-700"}`}>{item.title}</h2>
+                                    <h2 className={`flex justify-center font-semibold mt-2 ${activeTab === item.id ? "text-gray-700" : "text-gray-700"}`}>{item.title}</h2>
                                 </div>
                             ))}
                         </div>
