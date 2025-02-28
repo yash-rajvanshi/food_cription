@@ -91,7 +91,7 @@ const Contact = () => {
             
             <Hero image={Contactbg} title="Contact Us" height={60} />
             <div className="h-[120vh]">
-                <h1 className="text-5xl py-8 font-bold text-left px-4">Get in Touch with us</h1>
+                <h1 className="text-6xl font-zain py-8 font-bold text-left px-4">Get in Touch with us</h1>
 
                 <div
                     className="flex flex-col md:flex-row items-center justify-between lg:h-[82vh] p-6 md:py-8 md:p-12 md:px-12 bg-cover bg-center"

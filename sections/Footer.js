@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Logo & Intro */}
         <div className="ml-5">
           <Image  src="/logo.svg" alt="back" width={300} height={30}/>
-          <p className="text-sm font-zain lg:text-justify mt-2">
+          <p className="text-sm  lg:text-justify mt-2">
           A Healthcare Community that offers FoodCription (Lifestyle Prescription) to help individuals achieve their Health Goals by collaborating with leading Industry Partners.
           </p>
           <div className="flex md:mt-6 md:h-25 ">
@@ -32,7 +32,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="lg:ml-[4rem]">
-          <h3 className="text-lg font-semibold text-black">Quick Links</h3>
+          <h3 className="text-lg font-semibold  text-black">Quick Links</h3>
           <ul className="mt-2 space-y-2">
             <li><Link href="#" className="hover:text-green-800">Home</Link></li>
             <li><Link href="#" className="hover:text-green-800">About Us</Link></li>
@@ -60,7 +60,7 @@ const Footer = () => {
 
         {/* Social Media */}
         <div className="">
-          <h3 className="text-2xl font-bold text-black">“Simplifying Health Goals by advice on Healthy 'Food and Lifestyle”</h3>
+          <h3 className="text-3xl font-zain font-bold text-black">“Simplifying Health Goals by advice on Healthy 'Food and Lifestyle”</h3>
           
         </div>
       </div>
