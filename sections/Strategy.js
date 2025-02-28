@@ -11,7 +11,7 @@ const Strategy = () => {
                         Unraveling the Mystery of Sustainable Wellness: Explore Our Tailored Strategies for a Healthier You
                     </div>
                 </div>
-                <div className='flex py-5 w-11/12 mx-auto'>
+                <div className='flex py-5 w-11/12 mx-auto '>
                     <div className='flex flex-col max-w-[100%] justify-evenly'>
                         <div className='flex rounded-l-full bg-gradient-to-b from-[#FFF] via-[#FFF] to-[#F5F5F5] w-full items-center justify-between'>
                             <div className='flex justify-start w-full'>
@@ -104,10 +104,10 @@ const Strategy = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[30%] px-2'>
+                    <div className='w-[30%] px-3  mx-10'>
                         <Image src="/dummy_foodcription.png" alt='dummy_foodcription' width={420} height={850} />
                     </div>
-                    <div className='flex flex-col max-w-[100%] justify-evenly'>
+                    <div className='flex flex-col max-w-[100%] w-[353.65px] justify-evenly'>
                         <div className='flex rounded-r-full bg-gradient-to-b from-[#FFF] via-[#FFF] to-[#F5F5F5] w-full items-center justify-between'>
                             <div className='flex flex-col h-max justify-between w-[5%] items-center'>
                                 <div className='bg-gradient-to-r from-[#EAEEF0] to-[#8F8F8F] w-1 h-1 rounded-full mb-1'></div>
