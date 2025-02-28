@@ -174,7 +174,7 @@ const Contact = () => {
                             ></textarea>
                             <button
                                 type="submit"
-                                className={`w-full p-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition  ${isSubmitting ? "bg-gray-500 cursor-not-allowed" : "bg-[#76B947] hover:bg-[#5E9538]"
+                                className={`w-full p-3 bg-[#16A349] text-white rounded-lg hover:bg-green-700 transition  ${isSubmitting ? "bg-gray-500 cursor-not-allowed" : "bg-[#76B947] hover:bg-[#5E9538]"
                                     }`}
                                 disabled={isSubmitting}
                             >
