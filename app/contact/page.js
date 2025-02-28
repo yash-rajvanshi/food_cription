@@ -7,6 +7,10 @@ import { useState, useEffect } from "react";
 import Footer from "@/sections/Footer";
 import Hero from "@/components/Hero";
 import Contactbg from "@/assets/images/contact-bg.svg"
+import Loc from "@/assets/images/loc.svg"
+import Mail from "@/assets/images/mail.svg"
+import Phone from "@/assets/images/phone.svg"
+
 
 
 
@@ -102,15 +106,15 @@ const Contact = () => {
                     <div className="flex justify-between gap-5 h-[100%] lg:flex-col md:flex-row ">
                         <div className="md:w-1/1.5 space-y-4 text-gray-700">
                             <p className="flex items-center font-bold text-gray-600  space-x-3">
-                                <span className="text-green-600"><Image src="/assets/images/loc.svg" alt='email' width={20} height={20} className="text-gray-200" /></span>
+                                <span className="text-green-600"><Image src={Loc} alt='email' width={20} height={20} className="text-gray-200" /></span>
                                 <span>India</span>
                             </p>
                             <p className="flex items-center  space-x-3">
-                                <span className="text-green-600 "><Image src="/assets/images/mail.svg" alt='emai' width={20} height={20} className="" /></span>
+                                <span className="text-green-600 "><Image src={Mail} alt='emai' width={20} height={20} className="" /></span>
                                 <a href="mailto:foodcription@gmail.com" className="text-gray-600  font-semibold hover:underline">foodcription@gmail.com</a>
                             </p>
                             <p className="flex items-center font-bold text-gray-600 space-x-3 ">
-                                <span className="text-green-600"><Image src="/assets/images/phone.svg" alt='ema' width={20} height={20} className="" /></span>
+                                <span className="text-green-600"><Image src={Phone} alt='ema' width={20} height={20} className="" /></span>
                                 <span>8919404516</span>
                             </p>
                         </div>
