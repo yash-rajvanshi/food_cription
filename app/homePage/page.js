@@ -16,7 +16,7 @@ const HomePage = () => {
             <Strategy/>
             <Testimonials/>
             <Newsletter/>
-            {/* <Refer/> */}
+            <Refer/>
             <Footer/>
         </div>
     )

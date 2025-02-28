@@ -6,7 +6,10 @@ import Diet from '@/components/Diet';
 import PhysicalActivity from '@/components/PhysicalActivity';
 import Sleep from '@/components/Sleep';
 import StressManagement from '@/components/StressManage';
-
+import DietImg from '@/assets/images/diet_image.png';
+import Physicalactivity from '@/assets/images/physical_activity.png';
+import SleepImg from '@/assets/images/sleep.png';
+import Yoga from '@/assets/images/yoga.png';
 const FourPillars = () => {
     const [activeTab, setActiveTab] = useState("Diet"); // Default to Diet
 
@@ -41,10 +44,10 @@ const FourPillars = () => {
                         {/* Cards Section */}
                         <div className='flex justify-evenly w-full py-5'>
                             {[
-                                { id: "Diet", img: "/diet_image.png", title: "Diet" },
-                                { id: "Physical Activity", img: "/physical_activity.png", title: "Physical Activity" },
-                                { id: "Stress Management", img: "/yoga.png", title: "Stress Management" },
-                                { id: "Sleep", img: "/sleep.png", title: "Sleep" },
+                                { id: "Diet", img: DietImg, title: "Diet" },
+                                { id: "Physical Activity", img: Physicalactivity, title: "Physical Activity" },
+                                { id: "Stress Management", img:Yoga, title: "Stress Management" },
+                                { id: "Sleep", img: SleepImg, title: "Sleep" },
                             ].map((item) => (
                                 <div key={item.id} className='flex flex-col items-center cursor-pointer' onClick={() => setActiveTab(item.id)}>
                                     <div className={`w-[100px] h-[100px] flex flex-col border-2 rounded-lg p-4 transition-all duration-300 ${activeTab === item.id ? "border-teal-500" : "border-gray-300/30 hover:border-teal-500"}`}>
