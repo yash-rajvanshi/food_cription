@@ -25,19 +25,19 @@ const Footer = () => {
           <p className="text-sm  lg:text-justify mt-2">
           A Healthcare Community that offers FoodCription (Lifestyle Prescription) to help individuals achieve their Health Goals by collaborating with leading Industry Partners.
           </p>
-          <div className="flex md:mt-6 md:h-25 ">
+          <div className="flex md:mt-6 md:h-25 items-center">
             <div className="flex flex-col justify-between  " >
-                <Image  src={Play} alt="back" width={150} height={30}/>
+                <Image  src={Play} alt="back" width={150} height={30} className="mb-2"/>
                 <Image  src={Apple} alt="back" width={150} height={30}/>
             </div>
-            <div className="ml-3"><Image  src={Rx} alt="back" width={100} height={30}/></div>
+            <div className="ml-3 "><Image  src={Rx} alt="back" width={70} height={30}/></div>
 
           </div>
         </div>
 
         {/* Quick Links */}
         <div className="lg:ml-[4rem]">
-          <h3 className="text-lg font-semibold  text-black">Quick Links</h3>
+          <h3 className="text-2xl  font-zain   text-black">Quick Links</h3>
           <ul className="mt-2 space-y-2">
             <li><Link href="#" className="hover:text-green-800">Home</Link></li>
             <li><Link href="#" className="hover:text-green-800">About Us</Link></li>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="lg:ml-[3rem]">
-          <h3 className="text-lg font-semibold text-black">More</h3>
+          <h3 className="text-2xl  font-zain text-black">More</h3>
           <ul className="mt-2 space-y-2">
             <li><Link href="#" className="hover:text-green-800">Privacy Policy</Link></li>
             <li><Link href="#" className="hover:text-green-800">Help</Link></li>
