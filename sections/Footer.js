@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 // import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
-import Scooter from "@/components/Scooter";
 import { motion } from 'framer-motion';
 
 // import { Karla } from "next/font/google";
@@ -18,7 +17,7 @@ const Footer = () => {
         {/* Logo & Intro */}
         <div className="ml-5">
           <Image  src="/logo.svg" alt="back" width={300} height={30}/>
-          <p className="text-sm lg:text-justify mt-2">
+          <p className="text-sm font-zain lg:text-justify mt-2">
           A Healthcare Community that offers FoodCription (Lifestyle Prescription) to help individuals achieve their Health Goals by collaborating with leading Industry Partners.
           </p>
           <div className="flex md:mt-6 md:h-25 ">
