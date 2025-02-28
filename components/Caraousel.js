@@ -3,25 +3,31 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import LeftArrow from "@/assets/images/arrowLeft.svg"
+import RightArrow from "@/assets/images/arrowRight.svg"
+import Star from "@/assets/images/star.svg"
+import T1 from "@/assets/images/female-doctor2_Testominial.jpg"
+import T2 from "@/assets/images/hero.png"
+import T3 from "@/assets/images/doctor.jpg"
 
 const contents = [
     {
         id: 1,
-        image: "/assets/images/female-doctor2_Testominial.jpg",
+        image: {T1},
         name: "Kruthika",
         content:
             "I can’t thank this platform enough for the positive impact it has had on my health. The holistic approach to wellness, combining diet, fitness, and mindfulness, has completely reshaped how I take care of myself. I've never felt more in tune with my body and mind. If you're serious about improving your health, this is the place to start!",
     },
     {
         id: 2,
-        image: "/assets/images/hero.png",
+        image: {T2},
         name: "Jai",
         content:
             "I've experienced a complete transformation in my health and well-being thanks to the guidance and resources from Foodcription. From personalized nutrition tips to stress management techniques, I've learned how to take control of my wellness journey. I feel more energized, balanced, and confident in my daily life. The support I've received has been invaluable, and I highly recommend this site!",
     },
     {
         id: 3,
-        image: "/assets/images/doctor.jpg",
+        image: {T3},
         name: "Aditya",
         content:
             "Overall, FoodCription is an invaluable resource for anyone looking to take charge of their health. With its personalized lifestyle prescriptions and supportive community, it empowers users to make meaningful changes in their lives. I highly recommend checking it out!",
@@ -49,7 +55,7 @@ const Caraousel = () => {
                     onClick={prevSlide}
                     className="absolute  -left-[37rem] px-4 py-2  text-black rounded"
                 >
-                    <Image src="/assets/images/arrowLeft.svg" alt="prev" width={40} height={40} />
+                    <Image src={LeftArrow} alt="prev" width={40} height={40} />
                 </button>
 
                 <div className="w-full flex justify-center relative">
@@ -76,7 +82,7 @@ const Caraousel = () => {
                                     <div>{contents[index].name}</div>
                                     <div className="flex gap-3">
                                         {[...Array(5)].map((_, i) => (
-                                            <Image key={i} src="/assets/images/star.svg" alt="star" width={30} height={30} />
+                                            <Image key={i} src={Star} alt="star" width={30} height={30} />
                                         ))}
                                     </div>
                                     <p className="mt-10 font-normal text-gray-600 text-sm">{contents[index].content}</p>
@@ -90,7 +96,7 @@ const Caraousel = () => {
                     onClick={nextSlide}
                     className="absolute  -left-[34rem] px-4 py-2  text-black rounded"
                 >
-                    <Image src="/assets/images/arrowRight.svg" alt="prev" width={40} height={40} />
+                    <Image src={RightArrow} alt="prev" width={40} height={40} />
                 </button>
             </div>
         </div>
