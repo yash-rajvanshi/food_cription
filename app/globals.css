@@ -1,14 +1,25 @@
 @import "tailwindcss";
 
 @layer utilities {
-    .hide-scrollbar {
-      -ms-overflow-style: none; /* IE and Edge */
-      scrollbar-width: none; /* Firefox */
-    }
-    .hide-scrollbar::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Edge */
-    }
+  /* Apply custom scrollbar styles */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* Adjust width */
   }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #a1a1a1; /* Light gray scrollbar */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #969393; /* Darker on hover */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+  }
+}
+
+
   
   @theme {
     --font-karla: var(--font-karla), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
