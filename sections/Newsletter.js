@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletter = () => {
     return (
-        <div className='flex flex-col items-center py-10 max-w-[1200px] w-full'>
+        <div className='flex flex-col items-center py-10 max-w-full w-full'>
             <div className='flex flex-col items-center'>
                 <h2 className='text-3xl text-gray-600 font-bold'>Newsletter</h2>
                 <h1 className='text-center text-5xl  bg-clip-text text-transparent font-medium bg-gradient-to-t from-teal-600 to-[#b8f808] py-3'>Enter Your Email Address<br /> To Register For Our Newsletter </h1>

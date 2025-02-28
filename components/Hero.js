@@ -17,7 +17,7 @@ const Hero = ({ image, title, height, className }) => {
 
                 {/* Text Content - Inside Overlay */}
                 {/* <div className="flex flex-col items-center "> */}
-                <div className={`absolute inset-0 flex flex-col  justify-center items-center  text-white px-4 font-ubuntu`}>
+                <div className={`absolute inset-0 flex flex-col  justify-center items-center  text-white px-4 font-zain `}>
                     <h1 className={` md:text-4xl text-white inline-flex gap-2 xs:text-5xl   tracking-wide   sm:text-5xl lg:text-6xl font-bold font-ubuntu ${className}`}>{title}</h1>
                 </div>
                 {/* </div> */}

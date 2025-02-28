@@ -1,40 +1,6 @@
 import "./globals.css";
 import { Zain, Karla, League_Script } from "next/font/google";
 
-// import localFont from 'next/font/local';
-
-// Load multiple font weights & styles
-// const coolvetica = localFont({
-//   src: [
-//     {
-//       path: './fonts/Coolvetica-Regular.woff2',
-//       weight: '400',
-//       style: 'normal',
-//     },
-//     {
-//       path: './fonts/Coolvetica-Italic.woff2',
-//       weight: '400',
-//       style: 'italic',
-//     },
-//     {
-//       path: './fonts/Coolvetica-HeavyComp.woff2',
-//       weight: '700',
-//       style: 'normal',
-//     }, 
-//     {
-//       path: './fonts/Coolvetica-Cond.woff2',
-//       weight: '600', 
-//       style: 'normal',
-//     },
-//     {
-//       path: './fonts/Coolvetica-Cram.woff2',
-//       weight: '500',
-//       style: 'normal',
-//     },
-//   ]
-  // display: 'swap',
-  // variable: '--font-coolvetica',
-// });
 const karla = Karla({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-karla" });
 const leagueScript = League_Script({ subsets: ["latin"], weight: ["400"], variable: "--font-league-script" });
 const zain = Zain({ subsets: ["latin"], weight: ["200","300","400","800", "700","900"], variable: "--font-zain" });

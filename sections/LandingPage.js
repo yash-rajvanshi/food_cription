@@ -52,12 +52,12 @@ const LandingPage = () => {
         <div className="w-full max-w-[1200px] py-10 mx-auto">
           <div className="flex flex-col w-[45%] justify-start">
             <div className="w-[100%]">
-              <div className="text-5xl flex flex-col mt-4 mb-6">
-                <h1 className="font-medium leading-tight bg-gradient-to-t  from-teal-600 to-amber-300 bg-clip-text text-transparent">
+              <div className="text-6xl flex flex-col mt-4 mb-6">
+                <h1 className="font-extrabold text-6xl  font-zain bg-gradient-to-t from-teal-600 to-amber-300 bg-clip-text text-transparent">
                   Free <br /> Customized Lifestyle <br /> Prescription Plan!
                 </h1>
               </div>
-              <h2 className="mb-3 text-xl">
+              <h2 className="mb-3 text-xl font-karla">
                 “The Doctor of the future will give no medicine, but will instruct his patient in{" "}
                 <motion.span
                   initial={{ opacity: 0 }}
