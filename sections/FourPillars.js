@@ -10,6 +10,8 @@ import DietImg from '@/assets/images/diet_image.png';
 import Physicalactivity from '@/assets/images/physical_activity.png';
 import SleepImg from '@/assets/images/sleep.png';
 import Yoga from '@/assets/images/yoga.png';
+
+
 const FourPillars = () => {
     const [activeTab, setActiveTab] = useState("Diet"); // Default to Diet
 

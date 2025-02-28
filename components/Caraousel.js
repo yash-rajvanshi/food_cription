@@ -13,21 +13,21 @@ import T3 from "@/assets/images/doctor.jpg"
 const contents = [
     {
         id: 1,
-        image: {T1},
+        image: T1,
         name: "Kruthika",
         content:
             "I can’t thank this platform enough for the positive impact it has had on my health. The holistic approach to wellness, combining diet, fitness, and mindfulness, has completely reshaped how I take care of myself. I've never felt more in tune with my body and mind. If you're serious about improving your health, this is the place to start!",
     },
     {
         id: 2,
-        image: {T2},
+        image: T2,
         name: "Jai",
         content:
             "I've experienced a complete transformation in my health and well-being thanks to the guidance and resources from Foodcription. From personalized nutrition tips to stress management techniques, I've learned how to take control of my wellness journey. I feel more energized, balanced, and confident in my daily life. The support I've received has been invaluable, and I highly recommend this site!",
     },
     {
         id: 3,
-        image: {T3},
+        image: T3,
         name: "Aditya",
         content:
             "Overall, FoodCription is an invaluable resource for anyone looking to take charge of their health. With its personalized lifestyle prescriptions and supportive community, it empowers users to make meaningful changes in their lives. I highly recommend checking it out!",
