@@ -4,6 +4,11 @@ import Image from "next/image";
 // import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from 'framer-motion';
+import Scooter from "@/assets/images/footer-scooter.svg"
+import Logo from "@/assets/images/logo.svg"
+import Play from "@/assets/images/playStore.svg"
+import Apple from "@/assets/images/appleStore.svg"
+import Rx from "@/assets/images/rxGold.svg"
 
 // import { Karla } from "next/font/google";
 
@@ -16,16 +21,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto  grid md:grid-cols-4 gap-4 text-center md:text-left">
         {/* Logo & Intro */}
         <div className="ml-5">
-          <Image  src="/assets/images/logo.svg" alt="back" width={300} height={30}/>
+          <Image  src={Logo} alt="back" width={300} height={30}/>
           <p className="text-sm  lg:text-justify mt-2">
           A Healthcare Community that offers FoodCription (Lifestyle Prescription) to help individuals achieve their Health Goals by collaborating with leading Industry Partners.
           </p>
           <div className="flex md:mt-6 md:h-25 ">
             <div className="flex flex-col justify-between  " >
-                <Image  src="/assets/images/playStore.svg" alt="back" width={150} height={30}/>
-                <Image  src="/assets/images/appleStore.svg" alt="back" width={150} height={30}/>
+                <Image  src={Play} alt="back" width={150} height={30}/>
+                <Image  src={Apple} alt="back" width={150} height={30}/>
             </div>
-            <div className="ml-3"><Image  src="/assets/images/rxGold.svg" alt="back" width={100} height={30}/></div>
+            <div className="ml-3"><Image  src={Rx} alt="back" width={100} height={30}/></div>
 
           </div>
         </div>
@@ -73,7 +78,7 @@ const Footer = () => {
         transition={{ repeat: Infinity, repeatType: "loop", duration: 5, eease: "linear" } }
         className="absolute  bottom-0 left-0 w-auto h-[180px] "
       >
-        <img src="/assets/images/footer-scooter.svg" alt="Moving Image" className="w-[auto] h-[200px] object-cover" />
+        <img src="/footer-scooter.svg" alt="Moving Image" className="w-[auto] h-[200px] object-cover" />
       </motion.div>
     
     </footer>
